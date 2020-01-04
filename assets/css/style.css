@@ -1,0 +1,156 @@
+@font-face {
+	font-family: helvetica;
+	src: url("../web font/fonts/HelveticaLTStd-Light.otf");
+}
+body {
+	font-family: helvetica;
+}
+header {
+	background: #4b96a1;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+	color: white;
+	content: " /";
+	margin-left: 10px;
+}
+.navbar-brand {
+	font-family: 'Cherry Swash', cursive;
+	font-size: 35px;
+
+}
+.navbar-brand:hover {
+	font-family: 'Cherry Swash', cursive;
+}
+.navbar-nav .nav-item .nav-link:hover {
+	color: #34495e !important;
+}
+.navbar-nav .nav-item .nav-link .slash {
+	color: white !important;
+}
+
+/*.banner {
+	background: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 480px;
+}*/
+.banner h2 {
+	font-size: 60px;
+	font-weight: bold;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+.banner button {
+	font-size: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.banner .banner-icon {
+	margin-top: 110px;
+}
+.banner .banner-icon a {
+	color: white;
+}
+.banner .banner-icon a:hover {
+	color: #7f8c8d;
+}
+.content1 .con1-header {
+	margin-top: 80px;
+	color: #4c505d;
+	font-weight: bold;
+	font-size: 35px;
+}
+.content1 .con1-body {
+	margin-top: 50px;
+	color: #4c505d;
+}
+.content1 .con1-icon i {
+	margin-right: 16%;
+	color: #5eb6c4;
+	margin-top: 110px;
+	margin-bottom: 60px;
+}
+.content1 .con1-icon i:nth-last-child(1) {
+	margin-right: 0px;
+}
+.content2 {
+	background: #00d089;
+	width: 100%;
+	height: 410px;
+}
+.content2 img {
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+}
+.content2 .img-content {
+	padding-top: 80px;
+	padding-left: 40%;
+}
+.content2 .img-content i {
+	color: #58daa5;
+}
+.map {
+	position: relative;
+}
+.mainbox {
+	position: absolute;
+	top: 100px;
+	left: 350px;
+}
+.circle {
+	background: white;
+	opacity: 0.8;
+	width: 370px;
+	height: 370px;
+	padding: 20px;
+	border-radius: 50%;
+}
+.mainbox .circle i {
+	color: #00d089;
+}
+footer {
+	background: #00d089;
+	width: 100%;
+	height: 50px;
+}
+@media only screen and (max-width: 600px){
+	.navbar-brand {
+	font-family: 'Cherry Swash', cursive;
+	font-size: 25px;
+
+}
+	.navbar-nav {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.navbar-nav .nav-item .nav-link::after {
+	color: white;
+	content: "";
+	
+}
+.banner> div> h2 {
+	font-size: 35px;
+}
+	.content2 .img-content {
+		
+		padding-left: 20%;
+	}
+	.mainbox {
+	position: absolute;
+	top: 100px;
+	left: 40px;
+}
+.circle {
+	background: white;
+	opacity: 0.8;
+	width: 320px;
+	height: 320px;
+	padding: 20px;
+	border-radius: 50%;
+}
+}
