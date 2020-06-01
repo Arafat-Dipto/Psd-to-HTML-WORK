@@ -14,6 +14,11 @@ header {
 	content: " /";
 	margin-left: 10px;
 }
+.navbar-nav .nav-item:last-child .nav-link::after {
+  color: white;
+  content: "";
+ 
+}
 .navbar-brand {
 	font-family: 'Cherry Swash', cursive;
 	font-size: 35px;
